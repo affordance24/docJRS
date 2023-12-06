@@ -74,7 +74,6 @@ function drawStopwatch(time) {
     var seconds = int(time / 1000);
     var minutes = int(seconds / 60);
     var hours = int(minutes / 60);
-  
     seconds %= 60;
     minutes %= 60;
   
